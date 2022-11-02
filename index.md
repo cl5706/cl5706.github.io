@@ -5,10 +5,9 @@ Before neural network, we have already learned linear and logistic regression mo
 For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. 
 Thus, we need other models beyond these two to solve such complicated problems, and here comes neural Network.
 ## What is neural network?
-### Neuron
-Classification:      
-$$P(y=1|x)= \frac{1}{1+e^{-wt}}$$
-
+### Classification: 
+$$P(y=1|x)= \frac{1}{1+e^{\overrightarrow {w}^{T}x}}$$
+Here we can view the lina
 
 
 
