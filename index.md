@@ -11,6 +11,8 @@ On one hand, we can view this classification model as a linear model followed by
 ### Regression：
 $$\hat y = \overrightarrow {w}^{T}x$$
 Similarly, we can also view the linear regression model as a network. We take each of the dimensions of the input as a scalar value for a neuron, and we can get a network that maps from multiple neurons to one neuron, which is the output.   
+###
+The examples above are both mapping from n dimension to 1 dimension, what if we want to map from n dimension to n dimension?
 
 
 
