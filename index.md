@@ -7,7 +7,7 @@ Thus, we need other models beyond these two to solve such complicated problems, 
 ## What is neural network?
 ### Classification: 
 $$P(y=1|x)= \frac{1}{1+e^{\overrightarrow {w}^{T}x}}$$
-Instead of viewing the classification model as function, we can view it as a network. We can think of the input x1,x2...,xn as the nodes of a tree, and what we are passing through one layer to another through out the process.
+On one hand, we can view this classification model as a linear model followed by a sigmoid function. On the other hand, however, we can view it as a network. We can think of the input x1,x2...,xn as n nodes of a tree from layer 1, and we are passing from n nodes from layer 1 to one node in layer 2. 
 
 
 
