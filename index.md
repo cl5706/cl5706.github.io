@@ -7,7 +7,7 @@ Thus, we need other models beyond these two to solve such complicated problems, 
 ## What is neural network?
 ### Neuron
 Classification:      
-$ P(y=1|x)= \frac{1}{1+e^{-wt}} $
+$$P(y=1|x)= \frac{1}{1+e^{-wt}}$$
 
 
 
