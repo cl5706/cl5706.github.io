@@ -6,7 +6,8 @@ For example, when we meet the XOR function, we will get very low accuracy if we 
 Thus, we need other models beyond these two to solve such complicated problems, and here comes neural Network.
 ## What is neural network?
 ### Neuron
-Classification: $$ P(y=1|x)= \frac{1}{1+e^{-wt}} $$
+Classification: 
+$ P(y=1|x)= \frac{1}{1+e^{-wt}} $
 
 
 
