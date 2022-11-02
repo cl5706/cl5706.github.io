@@ -3,5 +3,14 @@ Convolutional Neural Network, known as CNN, is an important field in machine lea
 ## Why do we need neural network?
 Before neural network, we have already learned linear and logistic regression model. But there are some situtations where these two models can't work well in.         
 For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. 
+Thus, we need other models beyond these two to solve such complicated problems, and here comes neural Network.
 ## What is neural network?
+### Neuron
+Classification: $ P(y=1|x)= \frac{1}{1+e^{-wt}} $
 
+
+
+
+
+
+Nov.3rd
