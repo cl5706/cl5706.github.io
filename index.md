@@ -24,7 +24,7 @@ When we meet the XOR function, we will get very low accuracy if we fit in a line
 #### Gradient Descent
 Instead of rounding the number, We can use Stochastic gradient descent to help moving the current output to expect output (Optimum) by changing the weights. Thus, we need the derivative of error with regard to one weight wk:      
 By chain rule, $$\frac{dE}{dw_k} = \frac{dE}{dy}\frac{dy}{ds}\frac{ds}{dw_k}$$      
-Here, we can assume that $$E=\frac{1}{2}(t-y)^2$$  t is the target output, y is the current output          
+Here, we can assume that $$E=\frac{1}{2}(t-y)^2$$  where t is the target output, y is the current output          
 Thus, $$\frac{dE}{dy}=\frac{d}{dy}1/2(t-y)^2=-(t-y)$$    
 $$\frac{dy}{ds}=\frac{d sigmoid(s)}{ds}$$    
 By quotient rule, $$\frac{d sigmoid(x)}{dx}=sigmoid(x)(1-sigmoid(x))$$      
