@@ -9,7 +9,7 @@ Thus, we need other models beyond these two to solve such complicated problems, 
 $$P(y=1|x)= \frac{1}{1+e^{\overrightarrow {w}^{T}x}}$$
 On one hand, we can view this classification model as a linear model followed by a sigmoid function. On the other hand, however, we can view it as a network.Think of the input x1,x2...,xn as n nodes of a tree in layer 1, and we are passing from n nodes in layer 1 to one node in layer 2 thoughout the process. This is an example of a simple network, wehre the nodes being the neurons. 
 ### Regression：
-$$\hat y = \overrightarrow {w}^{T}x$$
+$$\hat y = \overrightarrow {w}^{T}x$$      
 Similarly, we can also view the linear regression model as a network. We take each of the dimensions of the input as a scalar value for a neuron, and we can get a network that maps from multiple neurons to one neuron, which is the output.   
 ### Multi-values Regression: 
 $$\hat y = Wx$$  
