@@ -29,7 +29,7 @@ Thus, $$\frac{dE}{dy}=\frac{d}{dy}1/2(t-y)^2=-(t-y)$$
 $$\frac{dy}{ds}=\frac{d sigmoid(s)}{ds}$$    
 By quotient rule, $$\frac{d sigmoid(x)}{dx}=sigmoid(x)(1-sigmoid(x))$$      
 Thus, $$\frac{dy}{ds}=sigmoid(s)(1-sigmoid(s)=y(1-y))$$       
-$$\frac{ds}{dw_k}\frac{d}{dw_k}\sum_{k}w_kh_k=h_k$$     
+$$\frac{ds}{dw_k}=\frac{d}{dw_k}\sum_{k}w_kh_k=h_k$$     
 Thus, $$\frac{dE}{dw_k} = \frac{dE}{dy}\frac{dy}{ds}\frac{ds}{dw_k}=-(t-y) y(1-y) h_k$$
 Thus, we we should change the weight by $$w_k\leftarrow w_k+a(t-y)y(1-y)h_k$$    
 ## Deep Learning:
