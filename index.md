@@ -16,5 +16,5 @@ $$\hat y = Wx$$
 Both classification and regression map from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs. let each element in vector x be an input node and each element in vector y be an output node.
 
 
-
+Hi
 Nov.3rd
