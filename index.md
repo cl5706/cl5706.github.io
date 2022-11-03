@@ -6,7 +6,7 @@ For example, when we meet the XOR function, we will get very low accuracy if we 
 Thus, we need other models beyond these two to solve such complicated problems, and here comes neural Network.
 ## What is neural network?
 ### Classification: 
-$$P(y=1|x)= \frac{1}{1+e^{\overrightarrow {w}^{T}x}}$$
+$$P(y=1|x)= \frac{1}{1+e^{\overrightarrow {w}^{T}x}}$$       
 On one hand, we can view this classification model as a linear model followed by a sigmoid function. On the other hand, however, we can view it as a network.Think of the input x1,x2...,xn as n nodes of a tree in layer 1, and we are passing from n nodes in layer 1 to one node in layer 2 thoughout the process. This is an example of a simple network, wehre the nodes being the neurons. 
 ### Regression：
 $$\hat y = \overrightarrow {w}^{T}x$$      
@@ -16,5 +16,5 @@ $$\hat y = Wx$$
 Both classification and regression map from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs. let each element in vector x be an input node and each element in vector y be an output node.
 
 
-Hiqwe
+Hiqweasd
 Nov.3rd
