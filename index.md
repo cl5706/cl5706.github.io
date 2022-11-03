@@ -13,26 +13,15 @@ $$\hat y = Wx$$
 Both classification and regression map from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs. let each element in vector x be an input node and each element in vector y be an output node.                
 ## Why do we need neural network?
 Before neural network, we have already learned linear and logistic regression model. But there are some situtations where these two models can't work well in.    
-### XOR Function          
-For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. Here, we can build a neural network to make the classification instead:      
-| Input | Weight to h1 | Weight to h2 |     
-| ----- | ------------ | ------------ |   
-| 1.0   | 3.7          | 2.9          |
-| 0.0   | 3.7          | 2.9          | 
-|1(bias)| -1.5         | -4.6         |         
-
-|       | Weight to output | 
-| ----- | ---------------- | 
-| h1    | 4.5          | 
-| h2    | -5.2         |  
-|1(bias)| -2.0         | 
 ### Feature Transformation:
-When we have a circle-shaped data, we need to change the space from x,y axis to r, θ space by certain radio function first and then apply linear model to it. Whatsmore, in real problems the transformation may not be clear enough to be written out, which makes the transformation even harder. In this case, neural network can find the feature transform automatically just by adding an "n to n" hidden layer between the input layer and output layer. However, if this hidden layer is linear, we can never get non-linear transformation like the radio function do. All elements in the hidden layer are just linear combiantion of the input elements:     
+For example, when we have a circle-shaped data, we need to change the space from x,y axis to r, θ space by certain radio function first and then apply linear model to it. Whatsmore, in real problems the transformation may not be clear enough to be written out, which makes the transformation even harder. In this case, neural network can find the feature transform automatically just by adding an "n to n" hidden layer between the input layer and output layer. However, if this hidden layer is linear, we can never get non-linear transformation like the radio function do. All elements in the hidden layer are just linear combiantion of the input elements:     
 $$h_j = \sum_{i=1}^{d}w_{ij}x_i$$     
 To fulfill this, we need to add a non-linear function after the linear combination:
 $$h_j = g(\sum_{i=1}^{d}w_{ij}x_i)$$     
 Here, g is a non-linear function applying on the linear value. g can be any function that is continuous and derivative theoretically, but the computer can run faster if the gradient is simple. Some examples can be tanh, sigmoid or relu function.
-### Deep Learning:
+### XOR Function          
+When we meet the XOR function, we will get very low accuracy if we fit in a linear model. Here, we can build a neural network to make the classification using sigmoid function. We will find a number between 0 to 1 after the process, and we can round it to get the final output.         
+## Deep Learning:
 Deep learning literally just means more hidden layers. As we have more layers, the network gets deeper and can perform more complicated function.
 
 
