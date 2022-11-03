@@ -2,7 +2,7 @@
 Convolutional Neural Network, known as CNN, is an important field in machine learning. Here is an introduction to it.       
 ## Why do we need neural network?
 Before neural network, we have already learned linear and logistic regression model. But there are some situtations where these two models can't work well in.         
-For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. Or when we have circle-shaped data, we need to change the space from x,y axis to r, $\theta$ space by certain radio function first and then apply linear model to it. However, in real problems the transformation may not be clear enough to be written out. In this case, we are seeking of certain way to do the transformation automatically. 
+For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. Or when we have circle-shaped data, we need to change the space from x,y axis to r, θ space by certain radio function first and then apply linear model to it. However, in real problems the transformation may not be clear enough to be written out. In this case, we are seeking of certain way to do the transformation automatically. 
 Thus, we need other models beyond these two to solve such complicated problems, and here comes neural Network.
 ## What is neural network?
 ### Classification: 
