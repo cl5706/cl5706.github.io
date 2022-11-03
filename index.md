@@ -11,10 +11,9 @@ On one hand, we can view this classification model as a linear model followed by
 ### Regression：
 $$\hat y = \overrightarrow {w}^{T}x$$
 Similarly, we can also view the linear regression model as a network. We take each of the dimensions of the input as a scalar value for a neuron, and we can get a network that maps from multiple neurons to one neuron, which is the output.   
-###Multi-values Regression: $$\hat y = Wx$$
-The examples above are both mapping from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs.
-
-
+### Multi-values Regression: 
+$$\hat y = Wx$$     
+Both classification and regression map from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs. let each element in vector x be an input node and each element in vector y be an output node.
 
 
 
