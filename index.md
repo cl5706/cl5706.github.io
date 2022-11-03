@@ -17,8 +17,15 @@ Before neural network, we have already learned linear and logistic regression mo
 For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. Here, we can build a neural network to make the classification instead:      
 | Input | Weight to h1 | Weight to h2 |     
 | ----- | ------------ | ------------ |   
-| 1     | 3.7          | 2.9          |
-| 0     | 3.7          | 2.9          |   
+| 1.0   | 3.7          | 2.9          |
+| 0.0   | 3.7          | 2.9          | 
+|1(bias)| -1.5         | -4.6         |         
+
+|       | Weight to output | 
+| ----- | ---------------- | 
+| h1    | 4.5          | 
+| h2    | -5.2         |  
+|1(bias)| -2.0         | 
 ### Feature Transformation:
 When we have a circle-shaped data, we need to change the space from x,y axis to r, θ space by certain radio function first and then apply linear model to it. Whatsmore, in real problems the transformation may not be clear enough to be written out, which makes the transformation even harder. In this case, neural network can find the feature transform automatically just by adding an "n to n" hidden layer between the input layer and output layer. However, if this hidden layer is linear, we can never get non-linear transformation like the radio function do. All elements in the hidden layer are just linear combiantion of the input elements:     
 $$h_j = \sum_{i=1}^{d}w_{ij}x_i$$     
