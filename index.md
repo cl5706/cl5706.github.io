@@ -2,7 +2,7 @@
 Convolutional Neural Network, known as CNN, is an important field in machine learning. Here is an introduction to it.       
 ## Why do we need neural network?
 Before neural network, we have already learned linear and logistic regression model. But there are some situtations where these two models can't work well in.         
-For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model.      
+For example, when we meet the XOR function, we will get very low accuracy if we fit in a linear model. Or when we have circle-shaped data, we need to change the space from x,y axis to r, $\theta$ space first and then apply linear model to it.
 Thus, we need other models beyond these two to solve such complicated problems, and here comes neural Network.
 ## What is neural network?
 ### Classification: 
@@ -13,8 +13,14 @@ $$\hat y = \overrightarrow {w}^{T}x$$
 Similarly, we can also view the linear regression model as a network. We take each of the dimensions of the input as a scalar value for a neuron, and we can get a network that maps from multiple neurons to one neuron, which is the output.   
 ### Multi-values Regression: 
 $$\hat y = Wx$$  
-Both classification and regression map from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs. let each element in vector x be an input node and each element in vector y be an output node.
+Both classification and regression map from n dimension to 1 dimension, what if we want to map from n dimension to n dimension? Instead of having only one output, we can have multiple outputs. let each element in vector x be an input node and each element in vector y be an output node.                
 
 
-Hiwasssad
+
+
+
+
+
+
+
 Nov.3rd
